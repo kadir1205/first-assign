@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Fake personal website for Albert Einstein.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albert Einstein - Personal Website</title>
+
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    } 
+    input[type="submit"]:hover {
+      background-color: #27ae60;
+    }
+</style>
+</head>
+<body>
+
+  <div>
+    <h1>Welcome to Albert Einstein Website</h1>
+    <p>Hello! I'm <span>Albert Einstein</span>, a fictional web developer. This site shares a bit about my background, hobbies, and projects.Iam here to help increase number of <em>Smart poeple</em></p>
+    
+    <a href="#contact">Click here to contact me </a>
+  </div>
+
+  <div>
+    <h2>About Me</h2>
+    <ul>
+      <li> Based : New Jersey</li>
+      <li> Job: Web developer and Physicist</li>
+      <li> Education: Computer Science</li>
+      <li> Hobbies: Smoking, reading, and Gaming</li>
+    </ul>
+  </div>
+
+  <div>
+    <h2>My Skills</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Programming Languages</th>
+          <th>Experience (Years)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML/CSS</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>8</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <p>Preferred Contact Method:</p>
+      <label><input type="radio" name="contact-method" value="email"> Email</label>
+      <label><input type="radio" name="contact-method" value="phone"> Phone</label>
+
+      <p>Select your interests:</p>
+      <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+      <label><input type="checkbox" name="interest" value="music"> Music</label>
+      <label><input type="checkbox" name="interest" value="travel"> Travel</label> <br>
+
+      <label for="referral">  Where did you hear about me?</label><br>
+      <select name="referral" id="referral">
+        <option value="google">Google</option>
+        <option value="friend">Friend</option>
+        <option value="social">Social Media</option>
+      </select> <br>
+
+
+      <input type="submit" 
+      
+      value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
