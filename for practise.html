@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Twitter Sign In</title>
+  <style>
+    body {
+      margin: 0;
+      background: #999;
+      font-family: Arial, sans-serif;
+    }
+
+    .modal {
+      margin: 50px auto;
+      background: #fff;
+      text-align: center;
+    
+    }
+
+    .modal .close {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      font-size: 24px;
+      color: #555;
+    }
+
+    .modal .logo {
+      font-size: 28px;
+      color: #1DA1F2;
+      margin-bottom: 20px;
+    }
+
+    .modal h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    
+    
+
+    
+
+    
+
+  
+
+    .next-btn {
+      background-color: black;
+      color: white;}
+      
+
+    .forgot-btn {
+      background-color: white;
+      color: black;
+    }
+
+    .signup-text {
+      color: #555;
+    }
+
+    .signup-text a {
+      color: #1DA1F2;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="modal">
+    <div class="close">&times;</div>
+    <!--class="close" gives it styling (positioned in the top-left corner, styled to look clickable).
+
+&times; is an HTML entity that renders as × (multiplication sign), commonly used as a "close" (X) symbol in UI.-->
+    <div class="logo">
+    
+      <img src="https://cdn.mos.cms.futurecdn.net/z3bn6deaxmrjmQHNEkpcZE-1200-80.jpg" style="height: 30px;" />
+        
+    </div>
+    <h2>Sign in to Twitter</h2>
+
+    <div class="button">
+      <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="Google Logo" />
+      Sign in with Google
+    </div>
+    <!--div class="button" , It’s Acting Like a Button, But Isn't One
+     Visually it looks like a button.
+
+     However, this is not semantically correct because a <div> doesn’t have built-in button functionality 
+        
+    or accessibility.
+
+    3. Used for Simplicity in Prototyping
+    In quick UI demos or prototypes (like your Twitter mockup), 
+    developers sometimes use <div class="button"> because it’s fast to style and looks good without much setup.-->
+
+    <div class="button">
+      <img src="https://img.icons8.com/ios-filled/50/000000/mac-os.png" alt="Apple Logo" />
+      Sign in with Apple
+    </div>
+
+    <div class="divider">or</div>
+
+    <div class="input-group">
+      <input type="text" placeholder="Phone, email, or username" />
+    </div>
+
+    <button class="next-btn">Next</button>
+    <button class="forgot-btn">Forgot password?</button>
+
+    <div class="signup-text">
+      Don't have an account? <a href="#">Sign up</a>
+    </div>
+  </div>
+
+</body>
+</html>
