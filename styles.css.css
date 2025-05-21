@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003087;
+}
+
+.nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #003087;
+}
+
+.main-nav {
+  display: flex;
+  background-color: #003087;
+  padding: 10px 20px;
+}
+
+.main-nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.sidebar {
+  width: 25%;
+  padding-right: 20px;
+}
+
+.login-box,
+.news-box {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.login-box h3,
+.news-box h4 {
+  margin-top: 0;
+}
+
+.login-box button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.news-box ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news-box li {
+  margin: 8px 0;
+}
+
+.cards img {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.main-content {
+  width: 75%;
+}
+
+.main-content h1 {
+  color: #003087;
+}
+
+.signup-offer {
+  background-color: #e5ecf9;
+  color: #003087;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.signup-button {
+  display: inline-block;
+  background-color: #fff8c6;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #003087;
+}
+
+.spotlight {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 12px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.trust-badges {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
